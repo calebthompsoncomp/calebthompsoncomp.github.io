@@ -253,3 +253,8 @@ footer {
     color:#444;
   }
 }
+
+#responsive-gallery {
+	overflow: hidden;
+	height: 348px;
+}
