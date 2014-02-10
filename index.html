@@ -37,7 +37,7 @@
 		  </div>
 		<p>CTVFX Website</p>
 		<p>Email: <a href="mailto:caleb.vfx@gmail.com">caleb.vfx@gmail.com</a></p>
-		<p>Resume:</p>
+		<p>Resume: Coming soon</p>
 		<p>Linkedin: <a href="http://www.linkedin.com/in/calebthompsoncomp" >linkedin</a></p>
 		<p>Imdb: <a href="http://www.imdb.com/name/nm5162058/" title="IMDB">IMDB</a></p>
 
@@ -45,7 +45,7 @@
       <section>
 		  
 		  <h3>Show Reel</h3>
-		  <p>
+		  <p id="vimeo">
 			  <iframe src="http://player.vimeo.com/video/75128095" width="600" height="337" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 		  </p>
 
@@ -100,6 +100,7 @@
     <script src="javascripts/zepto.min.js"></script>
     <script src="javascripts/scale.fix.js"></script>
     <script src="javascripts/idangerous.swiper-2.0.min.js"></script>
+    <script src="javascripts/jquery.fitvids.js"></script>
 	<script>
 		$(document).ready(function(){
         	if( $('.home-swiper').length > 0 ) {
@@ -113,6 +114,8 @@
 					s.swipeNext();
 				} );
 			}
+            
+            $("#vimeo").fitVids();
 		});  
 	</script>
     
