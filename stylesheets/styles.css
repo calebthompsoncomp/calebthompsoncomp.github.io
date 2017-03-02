@@ -92,7 +92,7 @@ th {
 }
 
 img {
-  max-width:50%;
+  max-width:100%;
 }
 
 header {
@@ -261,5 +261,5 @@ footer {
 
 
 #logo {
-  max-width: 220px;
+  max-width: 110px;
 }
